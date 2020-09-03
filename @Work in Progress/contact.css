@@ -55,3 +55,27 @@ body{
 }
 
 /* ------------------------------------------------------------------------------- */
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+form #name{
+  margin: 10px;
+  padding: 10px;
+}
+form #email{
+  margin: 10px;
+  padding: 10px;
+}
+form #submit{
+  margin: 10px;
+}
