@@ -136,9 +136,13 @@ body{
 
 /* --------------------------------------------- */
 
+#pointingDown{
+  /* border: blue solid; */
+}
+
 .arrow{
   border: solid black;
-  border-width: 0 5px 5px 0;
+  border-width: 0 10px 10px 0;
   display: inline-block;
   padding: 10px;
   position: relative;
@@ -148,9 +152,10 @@ body{
   right: 50%;
 
   animation-name: bounce;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
-  animation-delay: 2s;
+  animation-delay: 0s;
+  
 }
 .down{
   transform: rotate(45deg);
