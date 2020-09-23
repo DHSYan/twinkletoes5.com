@@ -60,11 +60,7 @@ body{
   /* overflow: hidden; */
   font-family: "Lucida Console", Courier, monospace;
 }
-  <h2>More About Me!</h2>
-    <hr>
-    <p>
-      Hi I'm Sean, I am a student that is new to the programming world!<br> I like to think that I'm a nerd in the tech world!<br> I love learning about tech, you can talk about tech with me all day long! I have some project that I am working on, if you would like to check them out. Head over to my <a href="./download.html">download</a> page!
-    </p>
+
 .base{
   /* width: 50%; */
   /*margin: auto; */
@@ -208,7 +204,7 @@ body{
   text-decoration: none;
   animation-name: flashing;
   animation-duration: 4s;
-  animation-delay: 0.5s;
+  animation-delay: s;
   animation-iteration-count: infinite;
 }
 
