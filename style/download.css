@@ -30,6 +30,7 @@ html{
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 100%;
+  max-height: 100%;
   scroll-behavior: smooth;
 
   /* overflow: hidden; */
@@ -146,7 +147,12 @@ body{
   justify-content: center;
   align-items: center;
   background: lightgrey;
-  padding: 10px;
-  margin-top: 55px;
+  padding: 10px 0px;
+  /* margin-top: 55px; */
+
+  position: absolute;
+  /* top: 100%; */
+  bottom: 0%;
+  width: 100%;
   
 }
